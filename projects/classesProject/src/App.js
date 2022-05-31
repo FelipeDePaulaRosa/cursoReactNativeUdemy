@@ -4,6 +4,9 @@ import FirstComponent from './components/First'
 import CompDefault, { Comp1, Comp2 } from './components/Multi'
 import MinMax from './components/MinMax'
 import Random from './components/Random'
+import Title from './components/Title'
+import CustomButton from './components/Button'
+import Counter from './components/Counter'
 
 export default () => (
     <View style={style.App}>
@@ -12,9 +15,10 @@ export default () => (
         {/* <Comp1 /> */}
         {/* <Comp2 /> */}
         {/* <MinMax min={3} max={20}/> */}
-        <Random min={10} max={60}/>
-        <Random min={10} max={60}/>
-        <Random min={10} max={60}/>
+        {/* <Random min={10} max={60}/> */}
+        {/* <Title principal="Fragment" secundary="Text with fragment"/> */}
+        {/* <CustomButton/> */}
+        <Counter inicial={5}/>
     </View>
 )
 

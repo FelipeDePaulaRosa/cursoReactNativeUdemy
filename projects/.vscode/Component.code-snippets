@@ -1,0 +1,20 @@
+{
+	"Componente": {
+		"scope": "javascript",
+		"prefix": "compT",
+		"body": [
+			"import React from 'react'",
+			"import { Text } from 'react-native'",
+			"import Style from './Style'",
+			"",
+			"export default props => {",
+			"    return (",
+			"        <Text Style={Style.textSizeBig}>",
+			"            Your text in here",
+			"        </Text>",
+			"    )",
+			"}",
+		],
+		"description": "Log output to console"
+	}
+}

@@ -8,6 +8,7 @@ import Title from './components/Title'
 import CustomButton from './components/Button'
 import Counter from './components/Counter'
 import CounterV2 from './components/counter/CounterV2'
+import Conditional from './components/Conditional'
 
 export default () => (
     <SafeAreaView style={style.App}>
@@ -20,7 +21,8 @@ export default () => (
         {/* <Title principal="Fragment" secundary="Text with fragment"/> */}
         {/* <CustomButton/> */}
         {/* <Counter inicial={5}/> */}
-        <CounterV2/>
+        {/* <CounterV2/> */}
+        <Conditional />
     </SafeAreaView>
 )
 

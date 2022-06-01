@@ -7,9 +7,10 @@ import Random from './components/Random'
 import Title from './components/Title'
 import CustomButton from './components/Button'
 import Counter from './components/Counter'
+import CounterV2 from './components/counter/CounterV2'
 
 export default () => (
-    <View style={style.App}>
+    <SafeAreaView style={style.App}>
         {/* <FirstComponent /> */}
         {/* <CompDefault /> */}
         {/* <Comp1 /> */}
@@ -18,8 +19,9 @@ export default () => (
         {/* <Random min={10} max={60}/> */}
         {/* <Title principal="Fragment" secundary="Text with fragment"/> */}
         {/* <CustomButton/> */}
-        <Counter inicial={5}/>
-    </View>
+        {/* <Counter inicial={5}/> */}
+        <CounterV2/>
+    </SafeAreaView>
 )
 
 const style = StyleSheet.create({

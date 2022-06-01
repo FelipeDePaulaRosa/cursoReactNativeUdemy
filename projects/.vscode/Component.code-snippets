@@ -9,7 +9,7 @@
 			"",
 			"export default props => {",
 			"    return (",
-			"        <Text Style={Style.textSizeBig}>",
+			"        <Text style={Style.textSizeBig}>",
 			"            Your text in here",
 			"        </Text>",
 			"    )",

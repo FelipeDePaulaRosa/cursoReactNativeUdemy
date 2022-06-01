@@ -6,7 +6,7 @@ export default ({ num = 0 }) => {
     return (
         <View>
             <Text style={Style.textSizeBig}>Result is:</Text>
-            <Text style={Style.textSizeBig}>{num % 2 === 0 ? 'Par' : 'Impar'}</Text>
+            <Text style={Style.textSizeBig}>{num % 2 === 0 ? 'Pair' : 'Odd'}</Text>
         </View>
     )
 }

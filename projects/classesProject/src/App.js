@@ -9,6 +9,8 @@ import CustomButton from './components/Button'
 import Counter from './components/Counter'
 import CounterV2 from './components/counter/CounterV2'
 import Conditional from './components/Conditional'
+import Family from './components/relation/Family'
+import Children from './components/relation/Children'
 
 export default () => (
     <SafeAreaView style={style.App}>
@@ -22,7 +24,15 @@ export default () => (
         {/* <CustomButton/> */}
         {/* <Counter inicial={5}/> */}
         {/* <CounterV2/> */}
-        <Conditional />
+        {/* <Conditional num={2}/> */}
+        <Family>
+            <Children nome="Nome" sobreNome="Sobrenome"/>
+            <Children nome="João" sobreNome="Caçador"/>
+            <Children nome="Maria" sobreNome="Caçadora"/>
+        </Family>
+        <Family>
+            <Children nome="Jose" sobreNome="Caçador"/>
+        </Family>
     </SafeAreaView>
 )
 

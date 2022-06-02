@@ -50,7 +50,7 @@ export default () => (
         {/* <FlexBoxV2 /> */}
         {/* <FlexBoxV3 /> */}
         {/* <FlexBoxV4 /> */}
-        <Lottery />
+        <Lottery quantity={7}/>
     </SafeAreaView>
 )
 

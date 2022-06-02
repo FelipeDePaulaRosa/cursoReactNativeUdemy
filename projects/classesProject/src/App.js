@@ -13,6 +13,8 @@ import Family from './components/relation/Family'
 import Children from './components/relation/Children'
 import UserLogged from './components/UserLogged'
 import ProductList from './components/products/ProductList'
+import InputYourName from './components/InputYourName'
+
 
 export default () => (
     <SafeAreaView style={style.App}>
@@ -38,7 +40,8 @@ export default () => (
         {/* <UserLogged user={{name: 'User', mail: 'mail@mail.com'}} />
         <UserLogged user={{mail: 'mail2@mail.com'}} />
         <UserLogged user={{name: 'User3'}} /> */}
-        <ProductList />
+        {/* <ProductList /> */}
+        <InputYourName name=''/>
     </SafeAreaView>
 )
 

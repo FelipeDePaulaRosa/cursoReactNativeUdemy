@@ -14,7 +14,11 @@ import Children from './components/relation/Children'
 import UserLogged from './components/UserLogged'
 import ProductList from './components/products/ProductList'
 import InputYourName from './components/InputYourName'
-
+import FlexBoxV1 from './components/layout/FlexBoxV1'
+import FlexBoxV2 from './components/layout/FlexBoxV2'
+import FlexBoxV3 from './components/layout/FlexBoxV3'
+import FlexBoxV4 from './components/layout/FlexBoxV4'
+import Lottery from './components/lottery/Lottery'
 
 export default () => (
     <SafeAreaView style={style.App}>
@@ -41,7 +45,12 @@ export default () => (
         <UserLogged user={{mail: 'mail2@mail.com'}} />
         <UserLogged user={{name: 'User3'}} /> */}
         {/* <ProductList /> */}
-        <InputYourName name=''/>
+        {/* <InputYourName name=''/> */}
+        {/* <FlexBoxV1 /> */}
+        {/* <FlexBoxV2 /> */}
+        {/* <FlexBoxV3 /> */}
+        {/* <FlexBoxV4 /> */}
+        <Lottery />
     </SafeAreaView>
 )
 
